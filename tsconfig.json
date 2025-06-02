@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    // Target the latest ECMAScript so Vite can do its magic
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+  
+    // Enable type-checking features
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+  
+    // This is the key part for React 18+
+    "jsx": "react-jsx",
+  
+    // Allow imports like `import App from "./App";`
+    "resolveJsonModule": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "include": ["src"] 
+}
